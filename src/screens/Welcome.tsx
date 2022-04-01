@@ -1,5 +1,5 @@
-import React, { useState} from 'react';
-import { View, Text, TouchableOpacity, Dimensions, Image } from 'react-native';
+import React from 'react';
+import { View, Dimensions, Image } from 'react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { StatusBar } from 'expo-status-bar';
 import OverLay from '../components/over-lay';

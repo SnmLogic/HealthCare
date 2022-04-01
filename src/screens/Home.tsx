@@ -8,7 +8,7 @@ const DrawerStack = createDrawerNavigator();
 
 export default function Home({navigation}: any) {
   return(
-      <DrawerStack.Navigator initialRouteName="Index" screenOptions={{headerShown: false, drawerType: 'slide'}} drawerContent={props => <SideBar navigation={navigation} />}>
+      <DrawerStack.Navigator initialRouteName="Index" screenOptions={{headerShown: false, drawerType: 'back'}} drawerContent={props => <SideBar navigation={navigation} />}>
         <DrawerStack.Screen name="Index" component={Index} />
         <DrawerStack.Screen name="About" component={About} />
       </DrawerStack.Navigator>
